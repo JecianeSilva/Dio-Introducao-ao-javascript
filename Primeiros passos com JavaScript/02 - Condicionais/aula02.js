@@ -1,9 +1,9 @@
-//_______________________ESTRUTURAS CONDICIONAIS ___________________________
+//_______________ESTRUTURAS CONDICIONAIS E DE REPETIÇÕES ___________________
 //--------------------------------------------------------------------------
 
 // IF e ELSE
 const number = 2;
-const numberPar = (numero % 2) === 0;
+const numberPar = (number % 2) === 0;
 
 if (numberPar) { // se par imprimi true
     console.log("true");
@@ -14,8 +14,8 @@ if (numberPar) { // se par imprimi true
 // IF e ELSE aninhados  
 
 const number2 = 15;
-const numberDivBy5 = (number % 5) === 0;
-const isPar = (number % 2) === 0;
+const numberDivBy5 = (number2 % 5) === 0;
+const isPar = (number2 % 2) === 0;
 
 // number é divisivel por 5 e é par?
 if (numberDivBy5) {
@@ -31,18 +31,18 @@ if (numberDivBy5) {
  // DO WHILE
 let i = 0;
 do {
-    console.log(i);
+    console.log('Do while: ' + i);
     i++;
 } while (i < 10);
 
 // FOR
 for (let j = 0; j < 10; j++) {
-    console.log(j);
+    console.log('For: '+ j);
 }
 
 // WHILE
 let k = 0;
 while (k < 10) {
-    console.log(k);
+    console.log('while: ' + k);
     k++;
 }
