@@ -1,4 +1,4 @@
-//_______________ESTRUTURAS CONDICIONAIS E DE REPETIÇÕES ___________________
+//_______________ESTRUTURAS CONDICIONAIS ___________________
 //--------------------------------------------------------------------------
 
 // IF e ELSE
@@ -26,23 +26,4 @@ if (numberDivBy5) {
     }
 } else {
     console.log("false");
-}
-
- // DO WHILE
-let i = 0;
-do {
-    console.log('Do while: ' + i);
-    i++;
-} while (i < 10);
-
-// FOR
-for (let j = 0; j < 10; j++) {
-    console.log('For: '+ j);
-}
-
-// WHILE
-let k = 0;
-while (k < 10) {
-    console.log('while: ' + k);
-    k++;
 }
